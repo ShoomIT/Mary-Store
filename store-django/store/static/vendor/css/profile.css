@@ -1,3 +1,16 @@
 body {
     padding-top: 56px;
+    align-content: center;
+}
+
+.container_basket {
+  max-width: 385px;
+  margin: auto;
+  height: 1000px;
+}
+
+.container_profile {
+  max-width: 885px;
+  margin: auto;
+  height: 1000px;
 }

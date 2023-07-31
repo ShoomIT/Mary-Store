@@ -35,6 +35,16 @@ class UserProfileView(TitleMixin, UpdateView):
         return reverse_lazy('users:profile', args=(self.object.id,))
 
 
+class UserProfileBasketView(TitleMixin, UpdateView):
+    model = User
+    template_name = 'products/baskets.html'
+    form_class = UserProfileForm
+    title = 'Profile'
+
+    def get_success_url(self):
+        return reverse_lazy('products:basket', args=(self.object.id,))
+
+
 class EmailVerificationView(TitleMixin, TemplateView):
     title = 'Verify email'
     template_name = 'users/email_verification.html'
