@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/orders/templates/orders null" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/products/fixtures/categories.json" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/products/fixtures/goods.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/users/templates/users" charset="UTF-8" />
+    <file url="PROJECT" charset="windows-1251" />
+  </component>
+</project>

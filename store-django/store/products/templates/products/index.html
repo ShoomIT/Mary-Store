@@ -1,0 +1,41 @@
+{% extends 'products/base.html' %}
+{% load static %}
+
+{% block css %}
+    <link href="{% static 'vendor/css/index.css' %}" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+    <section>
+        <!--    <div class="alert alert-light text-center" role="alert">-->
+        <!--        Информационное сообщение-->
+        <!--    </div>-->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1 class="mt-5">Mary Store</h1>
+                    <p>
+                        Mary Store - магазин бомбочек для ванн, сделанных с душой.
+                        Мы делаем самые нежные и красивые бомбочки. Бесплатная доставка по всей России.
+                    </p>
+                    <a href="https://api.whatsapp.com/send?phone=79001389212" target="_blank" rel="noopener noreferrer">
+                        <div type="button" class="whatsapp-button">
+                            <div class="text-button">
+                                <i class="fa fa-whatsapp"></i>
+                                <span>WhatsApp</span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <button id="start-purchase-btn" type="button" class="btn btn-lg">
+                        <a id="start-purchase-link" href="{% url 'products:index' %}">
+                            В магазин
+                        </a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}
+
+

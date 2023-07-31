@@ -1,0 +1,229 @@
+body {
+    background: url("../img/users/Wallpaper White Bombs.jpg") no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    padding-top: 56px;
+}
+
+#start-purchase-btn {
+    background-color: rgba(14,55,148,0.98);
+    border-color: #d6d8db;
+    color: whitesmoke;
+}
+
+
+#start-purchase-link {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+.whatsapp-button {
+       background: #25D366;
+       border: 3px solid #1cc15a;
+       border-radius: 50%;
+       box-shadow: 0 8px 10px rgba(7, 206, 112, 0.6);
+       cursor: pointer;
+       height: 68px;
+       text-align: center;
+       width: 68px;
+       position: fixed;
+       right: 5%;
+       bottom: 8%;
+       z-index: 9999;
+       transition: .3s;
+       -webkit-animation: hoverWave linear 1s infinite;
+       animation: hoverWave linear 1s infinite;
+}
+
+.whatsapp-button .text-button {
+        height:68px;
+        width:68px;
+        border-radius:50%;
+        position:relative;
+        overflow:hidden;
+}
+.whatsapp-button .text-button span {
+    text-align: center;
+    color:#23a455;
+    opacity: 0;
+    font-size: 0;
+        position:absolute;
+        right: 8px;
+        top: 27px;
+    line-height: 14px;
+        font-weight: 600;
+    transition: opacity .3s linear;
+    font-family: 'montserrat', Arial, Helvetica, sans-serif;
+}
+.whatsapp-button .text-button:hover span {
+    opacity: 1;
+        font-size: 11px;
+}
+.whatsapp-button:hover i {
+        display:none;
+}
+.whatsapp-button:hover {
+        z-index:1;
+        background:#fff;
+        color:transparent;
+        transition:.3s;
+}
+.whatsapp-button:hover i {
+        color:#25D366;
+        font-size:44px;
+        transition:.3s;
+}
+.whatsapp-button i {
+        color:#fff;
+        font-size:44px;
+        transition:.3s;
+        line-height: 66px;transition: .5s ease-in-out;
+        animation: 1200ms ease 0s normal none 1 running shake;
+        animation-iteration-count: infinite;
+        -webkit-animation: 1200ms ease 0s normal none 1 running shake;
+        -webkit-animation-iteration-count: infinite;
+}
+@-webkit-keyframes hoverWave {
+        0% {
+        box-shadow:0 8px 10px rgba(7,206,112,0.3),0 0 0 0 rgba(7,206,112,0.2),0 0 0 0 rgba(7,206,112,0.2)
+}
+40% {
+        box-shadow:0 8px 10px rgba(7,206,112,0.3),0 0 0 15px rgba(7,206,112,0.2),0 0 0 0 rgba(7,206,112,0.2)
+}
+80% {
+        box-shadow:0 8px 10px rgba(7,206,112,0.3),0 0 0 30px rgba(7,206,112,0),0 0 0 26.7px rgba(7,206,112,0.067)
+}
+100% {
+        box-shadow:0 8px 10px rgba(7,206,112,0.3),0 0 0 30px rgba(7,206,112,0),0 0 0 40px rgba(7,206,112,0.0)
+}
+}@keyframes hoverWave {
+        0% {
+        box-shadow:0 8px 10px rgba(7,206,112,0.3),0 0 0 0 rgba(7,206,112,0.2),0 0 0 0 rgba(7,206,112,0.2)
+}
+40% {
+        box-shadow:0 8px 10px rgba(7,206,112,0.3),0 0 0 15px rgba(7,206,112,0.2),0 0 0 0 rgba(7,206,112,0.2)
+}
+80% {
+        box-shadow:0 8px 10px rgba(7,206,112,0.3),0 0 0 30px rgba(7,206,112,0),0 0 0 26.7px rgba(7,206,112,0.067)
+}
+100% {
+        box-shadow:0 8px 10px rgba(7,206,112,0.3),0 0 0 30px rgba(7,206,112,0),0 0 0 40px rgba(7,206,112,0.0)
+}
+}
+@keyframes shake {
+0% {
+    transform: rotateZ(0deg);
+        -ms-transform: rotateZ(0deg);
+        -webkit-transform: rotateZ(0deg);
+}
+10% {
+    transform: rotateZ(-30deg);
+        -ms-transform: rotateZ(-30deg);
+        -webkit-transform: rotateZ(-30deg);
+}
+20% {
+    transform: rotateZ(15deg);
+        -ms-transform: rotateZ(15deg);
+        -webkit-transform: rotateZ(15deg);
+}
+30% {
+    transform: rotateZ(-10deg);
+        -ms-transform: rotateZ(-10deg);
+        -webkit-transform: rotateZ(-10deg);
+}
+40% {
+    transform: rotateZ(7.5deg);
+        -ms-transform: rotateZ(7.5deg);
+        -webkit-transform: rotateZ(7.5deg);
+}
+50% {
+    transform: rotateZ(-6deg);
+        -ms-transform: rotateZ(-6deg);
+        -webkit-transform: rotateZ(-6deg);
+}
+60% {
+    transform: rotateZ(5deg);
+        -ms-transform: rotateZ(5deg);
+        -webkit-transform: rotateZ(5deg);
+}
+70% {
+    transform: rotateZ(-4.28571deg);
+        -ms-transform: rotateZ(-4.28571deg);
+        -webkit-transform: rotateZ(-4.28571deg);
+}
+80% {
+    transform: rotateZ(3.75deg);
+        -ms-transform: rotateZ(3.75deg);
+        -webkit-transform: rotateZ(3.75deg);
+}
+90% {
+    transform: rotateZ(-3.33333deg);
+        -ms-transform: rotateZ(-3.33333deg);
+        -webkit-transform: rotateZ(-3.33333deg);
+}
+100% {
+    transform: rotateZ(0deg);
+        -ms-transform: rotateZ(0deg);
+        -webkit-transform: rotateZ(0deg);
+}
+}
+@-webkit-keyframes shake {
+0% {
+    transform: rotateZ(0deg);
+        -ms-transform: rotateZ(0deg);
+        -webkit-transform: rotateZ(0deg);
+}
+10% {
+    transform: rotateZ(-30deg);
+        -ms-transform: rotateZ(-30deg);
+        -webkit-transform: rotateZ(-30deg);
+}
+20% {
+    transform: rotateZ(15deg);
+        -ms-transform: rotateZ(15deg);
+        -webkit-transform: rotateZ(15deg);
+}
+30% {
+    transform: rotateZ(-10deg);
+        -ms-transform: rotateZ(-10deg);
+        -webkit-transform: rotateZ(-10deg);
+}
+40% {
+    transform: rotateZ(7.5deg);
+        -ms-transform: rotateZ(7.5deg);
+        -webkit-transform: rotateZ(7.5deg);
+}
+50% {
+    transform: rotateZ(-6deg);
+        -ms-transform: rotateZ(-6deg);
+        -webkit-transform: rotateZ(-6deg);
+}
+60% {
+    transform: rotateZ(5deg);
+        -ms-transform: rotateZ(5deg);
+        -webkit-transform: rotateZ(5deg);
+}
+70% {
+    transform: rotateZ(-4.28571deg);
+        -ms-transform: rotateZ(-4.28571deg);
+        -webkit-transform: rotateZ(-4.28571deg);
+}
+80% {
+    transform: rotateZ(3.75deg);
+        -ms-transform: rotateZ(3.75deg);
+        -webkit-transform: rotateZ(3.75deg);
+}
+90% {
+    transform: rotateZ(-3.33333deg);
+        -ms-transform: rotateZ(-3.33333deg);
+        -webkit-transform: rotateZ(-3.33333deg);
+}
+100% {
+    transform: rotateZ(0deg);
+        -ms-transform: rotateZ(0deg);
+        -webkit-transform: rotateZ(0deg);
+}
+}

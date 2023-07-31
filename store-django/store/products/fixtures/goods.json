@@ -1,0 +1,74 @@
+[
+  {
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+      "name": "Худи черного цвета",
+      "description": "Мягкая ткань, высокое качество, стильный дизайн",
+      "price": "1990.00",
+      "quantity": 12,
+      "image": "products_images/Adidas-hoodie.png",
+      "category": 1
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+      "name": "Туфельки черные",
+      "description": "Самые стильные и модные туфельки Аленде Лона",
+      "price": "2650.00",
+      "quantity": 5,
+      "image": "products_images/Black-Dr-Martens-shoes.png",
+      "category": 2
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+      "name": "Портфель Найки",
+      "description": "Удобный, вместительный и стильный портфель для тренировок",
+      "price": "1650.00",
+      "quantity": 8,
+      "image": "products_images/Black-Nike-Heritage-backpack.png",
+      "category": 4
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 4,
+    "fields": {
+      "name": "Кепочка-Панама",
+      "description": "Чуй стиль как этот лох на фоточке, будь ебаца приходить каким мамкиным модником-сковородником",
+      "price": "990.00",
+      "quantity": 6,
+      "image": "products_images/Blue-jacket-The-North-Face.png",
+      "category": 3
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 5,
+    "fields": {
+      "name": "Свитер",
+      "description": "Уютный, модный, теплый свитерочек для стильного мужчинки",
+      "price": "2300.00",
+      "quantity": 8,
+      "image": "products_images/Brown-sports-oversized-top-ASOS-DESIGN.png",
+      "category": 1
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 6,
+    "fields": {
+      "name": "Синие штаны",
+      "description": "Дебильные штанишки на вкус, хз кто их покупает",
+      "price": "2800.00",
+      "quantity": 12,
+      "image": "products_images/Dark-blue-wide-leg-ASOs-DESIGN-trousers.png",
+      "category": 1
+    }
+  }
+]
